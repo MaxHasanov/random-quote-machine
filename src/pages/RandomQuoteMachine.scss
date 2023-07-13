@@ -1,0 +1,29 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #1481cc;
+  transition: background 2s;
+
+  &_wrp {
+    text-align: center;
+    color: #e4f1fe;
+    font-family: 'Comic Sans MS';
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+}
+
+.btn{
+  border: 0;
+  outline: 0;
+  background: #cc4514;
+  color: white;
+  padding: 10px 30px;
+  transition: background .5s;
+  cursor: pointer;
+  
+  &:hover{
+  background: #cc7514;
+  }
+}
